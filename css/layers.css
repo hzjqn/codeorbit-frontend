@@ -1,0 +1,229 @@
+.star {
+  position: absolute;
+  background-image: url('../img/star.svg');
+  width: 15px;
+  height: 15px;
+}
+.layer-1 {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: 101;
+  transition: .3s;
+}
+.layer-1 .star {
+  transform: scale(0.25);
+}
+.layer-1 .star-1 {
+  top: 10%;
+  left: 5%;
+}
+.layer-1 .star-2 {
+  top: 8%;
+  left: 83%;
+}
+.layer-1 .star-3 {
+  top: 14%;
+  left: 35%;
+}
+.layer-1 .star-4 {
+  top: 20%;
+  left: 78%;
+}
+.layer-1 .star-4 {
+  top: 42%;
+  left: 91%;
+}
+.layer-1 .star-5 {
+  top: 75%;
+  left: 77%;
+}
+.layer-1 .star-6 {
+  top: 90%;
+  left: 46%;
+}
+.layer-1 .star-7 {
+  top: 71%;
+  left: 26%;
+}
+.layer-1 .star-6 {
+  top: 90%;
+  left: 46%;
+}
+.layer-2 {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 110vh;
+  z-index: 102;
+  transition: .3s;
+}
+.layer-2 .star {
+  transform: scale(0.5);
+}
+.layer-2 .star-1 {
+  top: 23%;
+  left: 22%;
+}
+.layer-2 .star-2 {
+  top: 86%;
+  left: 16%;
+}
+.layer-2 .star-3 {
+  top: 16%;
+  left: 38%;
+}
+.layer-2 .star-4 {
+  top: 22%;
+  left: 69%;
+}
+.layer-2 .star-4 {
+  top: 33%;
+  left: 86%;
+}
+.layer-2 .star-5 {
+  top: 75%;
+  left: 71%;
+}
+.layer-3 {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+  height: 120vh;
+  z-index: 103;
+  transition: .3s;
+}
+.layer-3 .star {
+  transform: scale(0.7);
+}
+.layer-3 .star-1 {
+  top: 23%;
+  left: 13%;
+}
+.layer-3 .star-2 {
+  top: 86%;
+  left: 19%;
+}
+.layer-3 .star-3 {
+  top: 16%;
+  left: 45%;
+}
+.layer-3 .star-4 {
+  top: 22%;
+  left: 69%;
+}
+.layer-3 .star-4 {
+  top: 33%;
+  left: 81%;
+}
+.layer-3 .star-5 {
+  top: 75%;
+  left: 72%;
+}
+.layer-6 {
+  opacity: 0;
+  position: absolute;
+  background-image: url('../img/bluegradient.png');
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  transition: .3s;
+  z-index: 106;
+}
+section {
+  z-index: 200;
+}
+body {
+  background-color: #110022;
+}
+body.state0 {
+  background-color: #110022;
+}
+body.state0 #home {
+  top: 0vh;
+}
+body.state0 #portfolio {
+  top: 100vh;
+}
+body.state0 #contact {
+  top: 100vh;
+}
+body.state0 .layer-1 {
+  transform: translate(0, -0.5%);
+}
+body.state0 .layer-2 {
+  transform: translate(0, -1%);
+}
+body.state0 .layer-3 {
+  transform: translate(0, -2%);
+}
+body.state0 .layer-4 {
+  transform: translate(0, -25%);
+}
+body.state0 .layer-5 {
+  transform: translate(0, -15%);
+}
+body.state1 {
+  background-color: #130226;
+}
+body.state1 #home {
+  top: -100vh;
+}
+body.state1 #portfolio {
+  top: 0vh;
+}
+body.state1 #contact {
+  top: 100vh;
+}
+body.state1 .layer-1 {
+  opacity: 0.75;
+  transform: translate(0, -1%);
+}
+body.state1 .layer-2 {
+  opacity: 0.75;
+  transform: translate(0, -2%);
+}
+body.state1 .layer-3 {
+  opacity: 0.75;
+  transform: translate(0, -4%);
+}
+body.state1 .layer-4 {
+  transform: translate(0, -50%);
+}
+body.state1 .layer-5 {
+  transform: translate(0, -30%);
+}
+body.state2 {
+  background-color: #19062e;
+}
+body.state2 #home {
+  top: -100vh;
+}
+body.state2 #portfolio {
+  top: -100vh;
+}
+body.state2 #contact {
+  top: 0vh;
+}
+body.state2 .layer-1 {
+  opacity: 0.50;
+  transform: translate(0, -1.5%);
+}
+body.state2 .layer-2 {
+  opacity: 0.50;
+  transform: translate(0, -3%);
+}
+body.state2 .layer-3 {
+  opacity: 0.50;
+  transform: translate(0, -6%);
+}
+body.state2 .layer-4 {
+  transform: translate(0, -75%);
+}
+body.state2 .layer-5 {
+  transform: translate(0, -45%);
+}
+body.state2 .layer-6 {
+  opacity: .5;
+}

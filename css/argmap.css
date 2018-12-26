@@ -1,0 +1,19 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+.mapcontainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eeeeee;
+}
+.mapcontainer span {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 1px black solid;
+}
